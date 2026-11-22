@@ -12,7 +12,7 @@ logger.setLevel(logging.INFO)
 if not logger.handlers:
     log_format = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s")
 
-    file_handler = logging.FileHandler("test_search.log", mode="w", encoding="utf-8")
+    file_handler = logging.FileHandler("lesson_24.1/test_search.log", mode="w", encoding="utf-8")
     file_handler.setFormatter(log_format)
 
     console_handler = logging.StreamHandler()
